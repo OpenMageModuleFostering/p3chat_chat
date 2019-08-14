@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <P3chat_Chat>
+            <active>true</active>
+            <codePool>local</codePool>
+        </P3chat_Chat>
+    </modules>
+</config>

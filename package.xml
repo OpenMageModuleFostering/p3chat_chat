@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>P3chat_Chat</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>P3chat is an innovative yet super easy way to add a sexy chat widget to your web site. Start talking to your web site visitor.</summary>
+    <description>p3chat is an innovative yet super easy way to add a sexy chat widget to your web site. Start talking to your web site visitor within seconds using your IM client of choice: Skype, Google Talk, Yahoo! messenger, ICQ and Reach Web Client. Make customer support a delight!</description>
+    <notes>After tests in production we have stable version with impoved texts and pictures. To add chat widget you need to manually register on p3chat.com and paste department UID to plugin</notes>
+    <authors><author><name>Pavel Konon</name><user>pavelkonon</user><email>konon.pavel@gmail.com</email></author></authors>
+    <date>2013-06-09</date>
+    <time>23:04:20</time>
+    <contents><target name="magelocal"><dir name="P3chat"><dir name="Chat"><dir name="Block"><file name="Accountconfig.php" hash="09fb543aaaaf3a3febf6be8c9bc52e40"/></dir><dir name="Helper"><file name="Data.php" hash="80e4844a409a80a0e69afea57a8bbfbf"/></dir><dir name="Model"><file name="Department.php" hash="99509f8a91623574c001cb80b19bbe57"/><dir name="Mysql4"><file name="P3chat.php" hash="534e1cc6b6e3747a6f000260fbeba8b8"/></dir><dir name="Resource"><dir name="Department"><file name="Collection.php" hash="bccf404fb024f1c66326f0c4cd685747"/></dir><file name="Department.php" hash="dc628a88281eca5dc7a02f29618bca0d"/><file name="Setup.php" hash="62828f4c96dd58f7351bff9ffcc1bda0"/></dir></dir><dir name="controllers"><file name="AdminController.php" hash="447880df61f66c39679976fbb386f985"/><file name="IndexController.php" hash="0f08899edbe7d19c9c8eaac86ea6552f"/></dir><dir name="etc"><file name="config.xml" hash="419605826e6ae7354c31c9fde751fdad"/></dir><dir name="sql"><dir name="p3chat_setup"><file name="mysql4-install-0.0.1.php" hash="c28198a6696f50e2ba5d20a7997013a6"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="p3chat.xml " hash="a21836d06ddbc9c888a6ee047659de7f"/></dir><dir name="template"><dir name="p3chat"><file name="p3chat.phtml " hash="e7a9cc00b02f4734d8fa3e542e908fa4"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="P3chat_Chat.xml " hash="a814cab9de4915340dde4d00cb1b13ab"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="p3chat"><file name="widget_code.png" hash="e9153b33b532f38bf277fb5cb2fdce04"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+</package>

@@ -1,0 +1,18 @@
+<?php
+$department = Mage::getModel('chat/department')->load(1);
+$uid=$department->getUid();
+if ($uid != "") {
+    echo "<script>
+      var p3chat = p3chat || [];
+      p3chat.push(['_setAccount', '".$uid."']);
+      p3chat.push(['_trackPage']);
+      (function (d, t, id) {
+        if (d.getElementById(id)) return;
+        var e = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        e.src = \"//p3chat.com/dist/p3.js\"; e.id = id;
+        s.parentNode.insertBefore(e, s);
+      }(document, 'script', 'p3chat-snippet'));
+    </script>";
+}
+?>
