@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/P3chat_Chat",
+    "name": "OpenMageModuleFostering\/P3chat_Chat",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "P3chat is an innovative yet super easy way to add a sexy chat widget to your web site. Start talking to your web site visitor.",
     "authors": [
-    {
-        "name": "Pavel Konon",
-        "email": "konon.pavel@gmail.com"
-    }
-],
+        {
+            "name": "Pavel Konon",
+            "email": "konon.pavel@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
